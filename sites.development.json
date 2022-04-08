@@ -1,7 +1,7 @@
 [
   {
     "id": "ecosystem",
-    "url": "http://localhost:8090/webhooks/ssg/",
+    "url": "http://localhost:8087/webhooks/ssg/",
     "webhooks": {
       "success": "build/success",
       "fail": "build/failure",
