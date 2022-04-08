@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ecosystem",
+    "url": "http://localhost:8090/webhooks/ssg/",
+    "webhooks": {
+      "success": "build/success",
+      "fail": "build/failure",
+      "progress": "build/progress"
+    },
+    "build": {
+      "path": "/home/mbouclas/work/astro-sites/ecosystem.com.cy",
+      "command": "npm run build"
+    }
+  }
+]
